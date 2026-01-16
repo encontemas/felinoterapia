@@ -1,0 +1,215 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  background: #f5f2fa;
+  color: #1d1a2b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #f5f2fa;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app {
+  padding-bottom: 4.5rem;
+}
+
+.app__header {
+  padding: 1.5rem 1.5rem 1rem;
+  background: linear-gradient(135deg, rgba(47, 42, 68, 0.9), rgba(76, 61, 111, 0.9)),
+    url("https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=1600&q=80")
+      center/cover no-repeat;
+  color: #f5f2fa;
+}
+
+.app__header h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.app__header p {
+  opacity: 0.85;
+  font-size: 0.95rem;
+}
+
+.section {
+  padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(29, 26, 43, 0.08);
+  display: grid;
+  gap: 0.75rem;
+}
+
+.card--photo {
+  padding: 0;
+  overflow: hidden;
+}
+
+.card--photo img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.card--photo .card__body {
+  padding: 1rem;
+}
+
+.card h3 {
+  font-size: 1.05rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.6rem;
+  background: #efe7ff;
+  color: #4c3d6f;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.stat {
+  background: #fdf7ea;
+  padding: 1rem;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.stat strong {
+  display: block;
+  font-size: 1.6rem;
+  color: #c47b1d;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.timer__time {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.button {
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  border: none;
+  background: #2f2a44;
+  color: #fff;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.button--light {
+  background: #efe7ff;
+  color: #2f2a44;
+}
+
+.list {
+  display: grid;
+  gap: 1rem;
+}
+
+.list__item {
+  border-left: 4px solid #ffb347;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-top: 1px solid rgba(47, 42, 68, 0.1);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding: 0.6rem 0.8rem 0.9rem;
+  gap: 0.5rem;
+}
+
+.nav a {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #5c5575;
+}
+
+.nav a.active {
+  color: #2f2a44;
+  font-weight: 600;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.4rem;
+}
+
+select,
+input {
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.checklist {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.checklist label {
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+}
+
+.notice {
+  background: #fff4e6;
+  padding: 0.8rem;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .stats {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

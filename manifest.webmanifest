@@ -1,0 +1,20 @@
+{
+  "name": "Felinoterapia",
+  "short_name": "Felinoterapia",
+  "start_url": "/app/",
+  "display": "standalone",
+  "background_color": "#f4f1f7",
+  "theme_color": "#2f2a44",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=192&h=192&fm=png&q=80",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=512&h=512&fm=png&q=80",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
