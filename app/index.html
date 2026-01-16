@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Felinoterapia — Plano do Dia</title>
+    <meta name="theme-color" content="#2f2a44" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Felinoterapia" />
+    <link
+      rel="apple-touch-icon"
+      href="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=180&h=180&fm=png&q=80"
+    />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/app/app.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app__header">
+        <h1>Plano do Dia</h1>
+        <p>Bem-estar felino sem complicação.</p>
+      </header>
+
+      <section class="section">
+        <div class="stats">
+          <div class="stat">
+            <strong id="streak-dias">0</strong>
+            <span>dias de streak</span>
+          </div>
+          <div class="stat">
+            <strong id="score-semanal">0</strong>
+            <span>itens na semana</span>
+          </div>
+        </div>
+
+        <div id="plano-diario" class="list"></div>
+        <div class="card card--photo">
+          <img
+            src="https://images.unsplash.com/photo-1516972810927-80185027ca84?auto=format&fit=crop&w=1200&q=80"
+            alt="Gato olhando para a câmera com ar curioso"
+          />
+          <div class="card__body">
+            <h3>Momento de carinho</h3>
+            <p>Abra o app, inspire fundo e aproveite esse olhar fofo.</p>
+          </div>
+        </div>
+        <div class="notice">
+          Tudo é salvo apenas no seu dispositivo. Sem login e sem coleta de dados.
+        </div>
+      </section>
+    </div>
+
+    <nav class="nav">
+      <a class="active" href="/app/">Plano</a>
+      <a href="/app/biblioteca/">Biblioteca</a>
+      <a href="/app/progresso/">Progresso</a>
+      <a href="/app/config/">Config</a>
+    </nav>
+
+    <script src="/pwa.js"></script>
+    <script src="/app/app.js"></script>
+  </body>
+</html>

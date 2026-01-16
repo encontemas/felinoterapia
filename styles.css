@@ -1,0 +1,190 @@
+:root {
+  color-scheme: light;
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  background: #f4f1f7;
+  color: #1c1a2b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #fef9f3 0%, #efe7f6 45%, #dcd6ef 100%);
+}
+
+.hero {
+  padding: 2rem 1.5rem 3rem;
+  background: linear-gradient(135deg, rgba(47, 42, 68, 0.92), rgba(76, 61, 111, 0.88)),
+    url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=1600&q=80")
+      center/cover no-repeat;
+  color: #f9f7ff;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+}
+
+.topbar__link {
+  color: #f9f7ff;
+  text-decoration: none;
+  border: 1px solid rgba(249, 247, 255, 0.6);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.hero__content {
+  max-width: 520px;
+  display: grid;
+  gap: 1.2rem;
+}
+
+.hero__tag {
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.hero__subtitle {
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
+
+.hero__cta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.button {
+  background: #ffd66b;
+  color: #2b233f;
+  padding: 0.85rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hero__note {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.content {
+  padding: 2.5rem 1.5rem 3rem;
+  display: grid;
+  gap: 2.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: grid;
+  gap: 1rem;
+}
+
+.gallery__grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.gallery__card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(39, 25, 76, 0.12);
+}
+
+.gallery__card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery__caption {
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  color: #3c3558;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.benefits ul {
+  display: grid;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.benefits li {
+  background: #fff;
+  padding: 0.9rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(39, 25, 76, 0.08);
+}
+
+.install__grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.install ol {
+  display: grid;
+  gap: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.faq details {
+  margin-bottom: 0.75rem;
+  background: #fff;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+}
+
+.footer {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2f2a44;
+  color: #efe9ff;
+}
+
+.footer a {
+  color: #efe9ff;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 3.5rem 3rem 4rem;
+  }
+
+  .hero__cta {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .install__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

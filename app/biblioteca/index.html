@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Felinoterapia — Biblioteca</title>
+    <meta name="theme-color" content="#2f2a44" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Felinoterapia" />
+    <link
+      rel="apple-touch-icon"
+      href="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=180&h=180&fm=png&q=80"
+    />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/app/app.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app__header">
+        <h1>Biblioteca</h1>
+        <p>Atividades offline para a rotina do seu gato.</p>
+      </header>
+
+      <section class="section">
+        <div class="card card--photo">
+          <img
+            src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=1200&q=80"
+            alt="Gato cinza de olhos verdes em destaque"
+          />
+          <div class="card__body">
+            <h3>Biblioteca inspiradora</h3>
+            <p>Atividades fofas para abrir todos os dias com alegria.</p>
+          </div>
+        </div>
+        <div id="biblioteca-lista" class="list"></div>
+      </section>
+    </div>
+
+    <nav class="nav">
+      <a href="/app/">Plano</a>
+      <a class="active" href="/app/biblioteca/">Biblioteca</a>
+      <a href="/app/progresso/">Progresso</a>
+      <a href="/app/config/">Config</a>
+    </nav>
+
+    <script src="/pwa.js"></script>
+    <script src="/app/app.js"></script>
+  </body>
+</html>
