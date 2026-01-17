@@ -26,7 +26,7 @@ a {
 }
 
 .app__header {
-  padding: 1.5rem 1.5rem 1rem;
+  padding: calc(1.5rem + env(safe-area-inset-top)) 1.5rem 1rem;
   background: linear-gradient(135deg, rgba(47, 42, 68, 0.9), rgba(76, 61, 111, 0.9)),
     url("https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=1600&q=80")
       center/cover no-repeat;
@@ -153,7 +153,7 @@ a {
   border-top: 1px solid rgba(47, 42, 68, 0.1);
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  padding: 0.6rem 0.8rem 0.9rem;
+  padding: 0.6rem 0.8rem calc(0.9rem + env(safe-area-inset-bottom));
   gap: 0.5rem;
 }
 

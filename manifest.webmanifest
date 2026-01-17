@@ -1,7 +1,7 @@
 {
   "name": "Felinoterapia",
   "short_name": "Felinoterapia",
-  "start_url": "/app/",
+  "start_url": "/app/index.html",
   "display": "standalone",
   "background_color": "#f4f1f7",
   "theme_color": "#2f2a44",
