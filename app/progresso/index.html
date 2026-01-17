@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Felinoterapia — Progresso</title>
+    <meta name="theme-color" content="#2f2a44" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Felinoterapia" />
+    <link
+      rel="apple-touch-icon"
+      href="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=180&h=180&fm=png&q=80"
+    />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/app/app.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app__header">
+        <h1>Progresso</h1>
+        <p>Acompanhe sua constância com o seu gato.</p>
+      </header>
+
+      <section class="section" id="progresso-resumo">
+        <div class="stats">
+          <div class="stat">
+            <strong id="progresso-streak">0</strong>
+            <span>dias consecutivos</span>
+          </div>
+          <div class="stat">
+            <strong id="progresso-semana">0</strong>
+            <span>itens na semana</span>
+          </div>
+          <div class="stat">
+            <strong id="progresso-mes">0</strong>
+            <span>itens no mês</span>
+          </div>
+          <div class="stat">
+            <strong id="progresso-total">0</strong>
+            <span>itens concluídos</span>
+          </div>
+        </div>
+
+        <div class="card card--photo">
+          <img
+            src="https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?auto=format&fit=crop&w=1200&q=80"
+            alt="Gato laranja enrolado em manta"
+          />
+          <div class="card__body">
+            <h3>Progresso com afeto</h3>
+            <p>Pequenos passos diários geram grandes ronronares.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Histórico recente</h3>
+          <div id="progresso-historico" class="list"></div>
+        </div>
+      </section>
+    </div>
+
+    <nav class="nav">
+      <a href="/app/index.html">Plano</a>
+      <a href="/app/biblioteca/index.html">Biblioteca</a>
+      <a class="active" href="/app/progresso/index.html">Progresso</a>
+      <a href="/app/config/index.html">Config</a>
+    </nav>
+
+    <script src="/pwa.js"></script>
+    <script src="/app/app.js"></script>
+  </body>
+</html>

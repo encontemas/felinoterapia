@@ -1,0 +1,777 @@
+[
+  {
+    "id": "brincadeira-varinha-pena",
+    "titulo": "Varinha de penas em 5 minutos",
+    "categoria": "brincadeira",
+    "duracao_min": 5,
+    "nivel": 1,
+    "descricao_curta": "Movimentos curtos e pausas para estimular o instinto de caça.",
+    "passos": [
+      "Movimente a varinha perto do chão em zigue-zague",
+      "Faça pausas curtas para o gato se preparar",
+      "Finalize permitindo a 'captura' da pena"
+    ],
+    "dicas": [
+      "Varie a velocidade para manter o interesse",
+      "Guarde a varinha após a sessão"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Olhos focados e corpo inclinado",
+      "Tentativas de captura sem estresse"
+    ],
+    "alertas": [
+      "Evite movimentos bruscos perto do rosto",
+      "Se o gato ficar ofegante, reduza o ritmo"
+    ]
+  },
+  {
+    "id": "brincadeira-corrida-suave",
+    "titulo": "Corrida suave com bolinha",
+    "categoria": "brincadeira",
+    "duracao_min": 10,
+    "nivel": 2,
+    "descricao_curta": "Uma sequência de lançamentos curtos para gastar energia.",
+    "passos": [
+      "Escolha uma bolinha leve",
+      "Lance a bolinha por distâncias curtas",
+      "Intercale com pequenas pausas"
+    ],
+    "dicas": [
+      "Use um corredor ou área livre",
+      "Elogie após cada tentativa"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Cauda ereta durante a brincadeira",
+      "Busca ativa pela bolinha"
+    ],
+    "alertas": [
+      "Evite superfícies escorregadias",
+      "Pare se notar sinais de cansaço"
+    ]
+  },
+  {
+    "id": "brincadeira-caixa-surpresa",
+    "titulo": "Caixa surpresa com papel",
+    "categoria": "brincadeira",
+    "duracao_min": 10,
+    "nivel": 1,
+    "descricao_curta": "Estimule curiosidade com uma caixa e papel amassado.",
+    "passos": [
+      "Coloque papel amassado dentro de uma caixa",
+      "Deixe a caixa parcialmente aberta",
+      "Convide o gato a explorar"
+    ],
+    "dicas": [
+      "Use papel sem tinta",
+      "Troque o papel se perder o interesse"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Cheirar e entrar na caixa",
+      "Patas explorando o interior"
+    ],
+    "alertas": [
+      "Retire fitas ou grampos",
+      "Supervisione para evitar engolir papel"
+    ]
+  },
+  {
+    "id": "brincadeira-esconde-petisco",
+    "titulo": "Esconde-petisco",
+    "categoria": "brincadeira",
+    "duracao_min": 5,
+    "nivel": 2,
+    "descricao_curta": "Misture brincadeira com recompensa para estimular o faro.",
+    "passos": [
+      "Separe 3 petiscos pequenos",
+      "Esconda em locais baixos e seguros",
+      "Observe o gato procurar"
+    ],
+    "dicas": [
+      "Comece com esconderijos fáceis",
+      "Aumente a dificuldade aos poucos"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Uso do nariz para procurar",
+      "Retorno confiante ao local"
+    ],
+    "alertas": [
+      "Não esconda perto de fios",
+      "Respeite a quantidade diária de petiscos"
+    ]
+  },
+  {
+    "id": "brincadeira-lanterna",
+    "titulo": "Caça à luz controlada",
+    "categoria": "brincadeira",
+    "duracao_min": 5,
+    "nivel": 2,
+    "descricao_curta": "Use uma lanterna em movimentos lentos e seguros.",
+    "passos": [
+      "Acenda a lanterna no chão",
+      "Movimente em trajetos curtos",
+      "Finalize com um brinquedo físico"
+    ],
+    "dicas": [
+      "Sempre finalize com captura real",
+      "Evite apontar para os olhos"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Atenção concentrada",
+      "Pulos moderados e controlados"
+    ],
+    "alertas": [
+      "Não prolongue para evitar frustração",
+      "Mantenha as luzes principais acesas"
+    ]
+  },
+  {
+    "id": "brincadeira-rampa-almofadas",
+    "titulo": "Rampa de almofadas",
+    "categoria": "brincadeira",
+    "duracao_min": 15,
+    "nivel": 3,
+    "descricao_curta": "Monte uma rampa suave para subir e descer.",
+    "passos": [
+      "Apoie almofadas firmes em um sofá",
+      "Convide o gato com brinquedo",
+      "Permita pausas entre subidas"
+    ],
+    "dicas": [
+      "Use almofadas estáveis",
+      "Ajuste a altura ao tamanho do gato"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Subidas repetidas",
+      "Exploração sem medo"
+    ],
+    "alertas": [
+      "Evite alturas excessivas",
+      "Sempre supervisione"
+    ]
+  },
+  {
+    "id": "brincadeira-pano-arrasto",
+    "titulo": "Pano em movimento",
+    "categoria": "brincadeira",
+    "duracao_min": 10,
+    "nivel": 1,
+    "descricao_curta": "Arraste um pano para despertar a curiosidade.",
+    "passos": [
+      "Use um pano leve",
+      "Arraste lentamente pelo chão",
+      "Deixe o gato capturar"
+    ],
+    "dicas": [
+      "Use texturas diferentes",
+      "Faça pausas para manter a surpresa"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Patas tentando prender o pano",
+      "Cabeça acompanhando o movimento"
+    ],
+    "alertas": [
+      "Evite panos com fios soltos",
+      "Retire o pano após a brincadeira"
+    ]
+  },
+  {
+    "id": "brincadeira-som-suave",
+    "titulo": "Sino suave",
+    "categoria": "brincadeira",
+    "duracao_min": 5,
+    "nivel": 1,
+    "descricao_curta": "Use um brinquedo com som leve para engajar.",
+    "passos": [
+      "Apresente o brinquedo com som baixo",
+      "Mova de forma lenta",
+      "Recompense com carinho"
+    ],
+    "dicas": [
+      "Observe se o som não incomoda",
+      "Intercale com momentos de silêncio"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Orelhas voltadas para o som",
+      "Toques suaves no brinquedo"
+    ],
+    "alertas": [
+      "Interrompa se o gato se assustar",
+      "Não use sons altos"
+    ]
+  },
+  {
+    "id": "brincadeira-corrida-zigzag",
+    "titulo": "Zigue-zague com cordão",
+    "categoria": "brincadeira",
+    "duracao_min": 10,
+    "nivel": 2,
+    "descricao_curta": "Movimente um cordão para simular presa.",
+    "passos": [
+      "Use um cordão grosso",
+      "Arraste em zigue-zague",
+      "Pare de vez em quando"
+    ],
+    "dicas": [
+      "Evite cordões finos",
+      "Guarde fora do alcance ao final"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Ataques curtos ao cordão",
+      "Movimentos rápidos de cauda"
+    ],
+    "alertas": [
+      "Nunca deixe cordões sem supervisão",
+      "Evite brincadeira perto da comida"
+    ]
+  },
+  {
+    "id": "brincadeira-caixa-tunel",
+    "titulo": "Túnel de caixas",
+    "categoria": "brincadeira",
+    "duracao_min": 15,
+    "nivel": 2,
+    "descricao_curta": "Conecte caixas para criar um túnel de exploração.",
+    "passos": [
+      "Monte duas caixas com aberturas",
+      "Coloque um brinquedo dentro",
+      "Incentive o gato a entrar"
+    ],
+    "dicas": [
+      "Reforce com fita larga",
+      "Alterne a posição das caixas"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Exploração completa do túnel",
+      "Brincadeira dentro das caixas"
+    ],
+    "alertas": [
+      "Remova grampos",
+      "Verifique se não há partes cortantes"
+    ]
+  },
+  {
+    "id": "enriquecimento-arranhador",
+    "titulo": "Arranhador com recompensa",
+    "categoria": "enriquecimento",
+    "duracao_min": 5,
+    "nivel": 1,
+    "descricao_curta": "Associe o arranhador a sensações positivas.",
+    "passos": [
+      "Mostre o arranhador",
+      "Passe um petisco leve",
+      "Elogie quando o gato usar"
+    ],
+    "dicas": [
+      "Use catnip se o gato gostar",
+      "Mantenha o arranhador firme"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Arranhões repetidos",
+      "Cheirar o arranhador"
+    ],
+    "alertas": [
+      "Evite arranhadores instáveis",
+      "Não force se o gato recusar"
+    ]
+  },
+  {
+    "id": "enriquecimento-janela",
+    "titulo": "Observação na janela",
+    "categoria": "enriquecimento",
+    "duracao_min": 10,
+    "nivel": 1,
+    "descricao_curta": "Crie um ponto de observação seguro na janela.",
+    "passos": [
+      "Abra uma cortina",
+      "Posicione uma almofada",
+      "Convide o gato a observar"
+    ],
+    "dicas": [
+      "Mantenha a janela fechada",
+      "Limpe o local regularmente"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Orelhas atentas",
+      "Ficar deitado observando"
+    ],
+    "alertas": [
+      "Instale telas de segurança",
+      "Evite exposição a sol forte"
+    ]
+  },
+  {
+    "id": "enriquecimento-prateleira",
+    "titulo": "Percurso de prateleiras baixas",
+    "categoria": "enriquecimento",
+    "duracao_min": 15,
+    "nivel": 2,
+    "descricao_curta": "Use móveis baixos para criar um percurso.",
+    "passos": [
+      "Organize cadeiras e bancos",
+      "Convide o gato com petisco",
+      "Permita que escolha o ritmo"
+    ],
+    "dicas": [
+      "Evite superfícies escorregadias",
+      "Ajuste a distância entre apoios"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Percurso completo",
+      "Subidas confiantes"
+    ],
+    "alertas": [
+      "Não force saltos altos",
+      "Supervisione todo o tempo"
+    ]
+  },
+  {
+    "id": "enriquecimento-cama-alta",
+    "titulo": "Cama elevada",
+    "categoria": "enriquecimento",
+    "duracao_min": 10,
+    "nivel": 1,
+    "descricao_curta": "Ofereça um local alto e confortável para descanso.",
+    "passos": [
+      "Posicione uma cama em local elevado",
+      "Mostre o local ao gato",
+      "Permita que ele se acomode"
+    ],
+    "dicas": [
+      "Use manta macia",
+      "Escolha um ponto silencioso"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Se deitar e ronronar",
+      "Retornar ao local sozinho"
+    ],
+    "alertas": [
+      "Evite alturas muito grandes",
+      "Confira a estabilidade da base"
+    ]
+  },
+  {
+    "id": "enriquecimento-caixa-olfativa",
+    "titulo": "Caixa olfativa",
+    "categoria": "enriquecimento",
+    "duracao_min": 10,
+    "nivel": 2,
+    "descricao_curta": "Misture ervas seguras para estimular o olfato.",
+    "passos": [
+      "Coloque catnip ou matatabi em um pano",
+      "Guarde em uma caixinha",
+      "Deixe o gato explorar por alguns minutos"
+    ],
+    "dicas": [
+      "Use pequenas quantidades",
+      "Guarde após o uso"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Rolamentos e esfregões",
+      "Cheirar repetidamente"
+    ],
+    "alertas": [
+      "Evite se o gato ficar agitado",
+      "Não deixe a caixa sem supervisão"
+    ]
+  },
+  {
+    "id": "enriquecimento-comedouro-lento",
+    "titulo": "Comedouro lento",
+    "categoria": "enriquecimento",
+    "duracao_min": 5,
+    "nivel": 1,
+    "descricao_curta": "Transforme a refeição em desafio suave.",
+    "passos": [
+      "Coloque ração no comedouro lento",
+      "Observe o ritmo do gato",
+      "Retire quando terminar"
+    ],
+    "dicas": [
+      "Lave o comedouro após uso",
+      "Comece com pouco alimento"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Comer mais devagar",
+      "Explorar com as patas"
+    ],
+    "alertas": [
+      "Não use se o gato ficar frustrado",
+      "Acompanhe para evitar engasgos"
+    ]
+  },
+  {
+    "id": "enriquecimento-tapete-sensorial",
+    "titulo": "Tapete sensorial",
+    "categoria": "enriquecimento",
+    "duracao_min": 10,
+    "nivel": 1,
+    "descricao_curta": "Ofereça texturas diferentes para explorar.",
+    "passos": [
+      "Monte um tapete com tecidos variados",
+      "Posicione em local seguro",
+      "Incentive o gato a caminhar"
+    ],
+    "dicas": [
+      "Use tecidos laváveis",
+      "Alterne texturas semanalmente"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Cheirar e tocar com as patas",
+      "Deitar sobre o tapete"
+    ],
+    "alertas": [
+      "Evite tecidos com fios soltos",
+      "Retire objetos pequenos"
+    ]
+  },
+  {
+    "id": "enriquecimento-radio",
+    "titulo": "Som ambiente suave",
+    "categoria": "enriquecimento",
+    "duracao_min": 15,
+    "nivel": 1,
+    "descricao_curta": "Crie um clima calmo com música baixa.",
+    "passos": [
+      "Coloque música instrumental",
+      "Abaixe o volume",
+      "Observe a reação do gato"
+    ],
+    "dicas": [
+      "Evite sons agudos",
+      "Intercale com momentos de silêncio"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Respiração mais lenta",
+      "Postura relaxada"
+    ],
+    "alertas": [
+      "Se o gato se esconder, desligue",
+      "Não use caixas de som muito próximas"
+    ]
+  },
+  {
+    "id": "enriquecimento-caminho-petiscos",
+    "titulo": "Caminho de petiscos",
+    "categoria": "enriquecimento",
+    "duracao_min": 5,
+    "nivel": 2,
+    "descricao_curta": "Distribua petiscos para estimular movimento.",
+    "passos": [
+      "Coloque pequenos petiscos pelo chão",
+      "Deixe o gato seguir o caminho",
+      "Finalize com carinho"
+    ],
+    "dicas": [
+      "Use petiscos pequenos",
+      "Varie o caminho"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Seguir a trilha",
+      "Farejar com interesse"
+    ],
+    "alertas": [
+      "Respeite a quantidade diária",
+      "Evite áreas com poeira"
+    ]
+  },
+  {
+    "id": "enriquecimento-cama-caverna",
+    "titulo": "Cama caverna",
+    "categoria": "enriquecimento",
+    "duracao_min": 10,
+    "nivel": 1,
+    "descricao_curta": "Crie um esconderijo confortável e seguro.",
+    "passos": [
+      "Use uma caixa com manta",
+      "Abra uma entrada ampla",
+      "Deixe o gato entrar no tempo dele"
+    ],
+    "dicas": [
+      "Coloque em local silencioso",
+      "Troque a manta regularmente"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Entrar e permanecer",
+      "Ronronar ou dormir"
+    ],
+    "alertas": [
+      "Evite espaços apertados",
+      "Observe se o gato não fica preso"
+    ]
+  },
+  {
+    "id": "enriquecimento-varal",
+    "titulo": "Varal de fitas",
+    "categoria": "enriquecimento",
+    "duracao_min": 10,
+    "nivel": 2,
+    "descricao_curta": "Pendure fitas largas para estimular toques.",
+    "passos": [
+      "Pendure fitas em altura baixa",
+      "Balance levemente",
+      "Deixe o gato explorar"
+    ],
+    "dicas": [
+      "Use fitas largas e resistentes",
+      "Retire após a sessão"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Tocar com as patas",
+      "Cheirar e brincar"
+    ],
+    "alertas": [
+      "Nunca deixe fitas sem supervisão",
+      "Evite nós apertados"
+    ]
+  },
+  {
+    "id": "cuidado-escovacao-curta",
+    "titulo": "Escovação rápida",
+    "categoria": "cuidado",
+    "duracao_min": 5,
+    "nivel": 1,
+    "descricao_curta": "Uma escovação leve para reduzir pelos soltos.",
+    "passos": [
+      "Escolha uma escova macia",
+      "Escove no sentido do pelo",
+      "Pare se o gato se incomodar"
+    ],
+    "dicas": [
+      "Recompense com carinho",
+      "Comece por áreas favoritas"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Gato relaxado",
+      "Permitir mais de 1 minuto"
+    ],
+    "alertas": [
+      "Evite áreas sensíveis",
+      "Se houver dor, considere falar com veterinário"
+    ]
+  },
+  {
+    "id": "cuidado-limpeza-olhos",
+    "titulo": "Limpeza de cantinhos",
+    "categoria": "cuidado",
+    "duracao_min": 5,
+    "nivel": 1,
+    "descricao_curta": "Limpe suavemente os cantos dos olhos com algodão.",
+    "passos": [
+      "Umedeça algodão com água filtrada",
+      "Passe suavemente no canto",
+      "Use um algodão por olho"
+    ],
+    "dicas": [
+      "Faça movimentos leves",
+      "Faça quando o gato estiver calmo"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Olhos limpos",
+      "Gato permanece tranquilo"
+    ],
+    "alertas": [
+      "Não use produtos químicos",
+      "Se houver secreção persistente, considere falar com veterinário"
+    ]
+  },
+  {
+    "id": "cuidado-agua-fresca",
+    "titulo": "Água fresca",
+    "categoria": "cuidado",
+    "duracao_min": 5,
+    "nivel": 1,
+    "descricao_curta": "Troque a água e higienize o pote.",
+    "passos": [
+      "Esvazie o pote",
+      "Lave com água e sabão neutro",
+      "Encha com água fresca"
+    ],
+    "dicas": [
+      "Troque a água diariamente",
+      "Use um pote limpo"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Gato bebe com mais frequência",
+      "Pote sempre limpo"
+    ],
+    "alertas": [
+      "Não use água muito gelada",
+      "Evite deixar o pote ao sol"
+    ]
+  },
+  {
+    "id": "cuidado-check-caixa",
+    "titulo": "Cheque da caixa de areia",
+    "categoria": "cuidado",
+    "duracao_min": 5,
+    "nivel": 1,
+    "descricao_curta": "Remova resíduos para manter o ambiente agradável.",
+    "passos": [
+      "Retire torrões e resíduos",
+      "Complete com areia limpa",
+      "Limpe a pá utilizada"
+    ],
+    "dicas": [
+      "Faça a limpeza diariamente",
+      "Use luvas se preferir"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Caixa sem odores fortes",
+      "Gato usa normalmente"
+    ],
+    "alertas": [
+      "Observe mudanças no uso",
+      "Se houver alterações, considere falar com veterinário"
+    ]
+  },
+  {
+    "id": "cuidado-carinho-calmo",
+    "titulo": "Carinho guiado",
+    "categoria": "cuidado",
+    "duracao_min": 10,
+    "nivel": 1,
+    "descricao_curta": "Sessão curta de carinho respeitando limites.",
+    "passos": [
+      "Ofereça a mão para o gato cheirar",
+      "Faça carinhos curtos",
+      "Pare quando ele se afastar"
+    ],
+    "dicas": [
+      "Observe a linguagem corporal",
+      "Prefira áreas que ele gosta"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Ronronar suave",
+      "Cabeçada na mão"
+    ],
+    "alertas": [
+      "Não force se o gato recusar",
+      "Respeite sinais de desconforto"
+    ]
+  },
+  {
+    "id": "cuidado-verificacao-patas",
+    "titulo": "Verificação rápida das patas",
+    "categoria": "cuidado",
+    "duracao_min": 5,
+    "nivel": 2,
+    "descricao_curta": "Observe as patinhas e almofadas.",
+    "passos": [
+      "Segure a pata com delicadeza",
+      "Olhe se há sujeira",
+      "Solte e recompense"
+    ],
+    "dicas": [
+      "Faça após a brincadeira",
+      "Use voz calma"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Permitir toque breve",
+      "Retornar para perto"
+    ],
+    "alertas": [
+      "Não aperte as patas",
+      "Se houver feridas, considere falar com veterinário"
+    ]
+  },
+  {
+    "id": "cuidado-limpeza-orelha",
+    "titulo": "Inspeção de orelhas",
+    "categoria": "cuidado",
+    "duracao_min": 5,
+    "nivel": 1,
+    "descricao_curta": "Observe se há sujeira visível.",
+    "passos": [
+      "Aproxime o gato com calma",
+      "Levante a orelha gentilmente",
+      "Observe sem inserir objetos"
+    ],
+    "dicas": [
+      "Faça em ambiente tranquilo",
+      "Elogie após a inspeção"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Aceitar o toque",
+      "Orelhas limpas"
+    ],
+    "alertas": [
+      "Não use cotonete",
+      "Se houver odor forte, considere falar com veterinário"
+    ]
+  },
+  {
+    "id": "cuidado-rotina-alimentacao",
+    "titulo": "Rotina de alimentação",
+    "categoria": "cuidado",
+    "duracao_min": 10,
+    "nivel": 1,
+    "descricao_curta": "Sirva a refeição com calma e observe o apetite.",
+    "passos": [
+      "Separe a porção diária",
+      "Sirva em local tranquilo",
+      "Observe o comportamento"
+    ],
+    "dicas": [
+      "Mantenha horários regulares",
+      "Evite barulhos durante a refeição"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Comer sem pressa",
+      "Voltar ao prato depois"
+    ],
+    "alertas": [
+      "Não force a comer",
+      "Mudanças bruscas podem exigir atenção veterinária"
+    ]
+  },
+  {
+    "id": "cuidado-ambiente-calmo",
+    "titulo": "Ambiente calmo",
+    "categoria": "cuidado",
+    "duracao_min": 15,
+    "nivel": 1,
+    "descricao_curta": "Reduza estímulos para momentos de descanso.",
+    "passos": [
+      "Abaixe o volume da casa",
+      "Apague luzes fortes",
+      "Ofereça um canto confortável"
+    ],
+    "dicas": [
+      "Use uma manta macia",
+      "Evite visitas durante o descanso"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Gato se aninha",
+      "Respiração lenta"
+    ],
+    "alertas": [
+      "Não isole totalmente se ele pedir interação",
+      "Observe sinais de desconforto"
+    ]
+  },
+  {
+    "id": "cuidado-hidratacao",
+    "titulo": "Incentivo à hidratação",
+    "categoria": "cuidado",
+    "duracao_min": 5,
+    "nivel": 1,
+    "descricao_curta": "Coloque mais um ponto de água na casa.",
+    "passos": [
+      "Separe um segundo recipiente",
+      "Coloque em local silencioso",
+      "Observe se o gato se aproxima"
+    ],
+    "dicas": [
+      "Troque a água diariamente",
+      "Mantenha longe da comida"
+    ],
+    "sinais_de_que_deu_certo": [
+      "Cheirar o novo ponto",
+      "Bebidas mais frequentes"
+    ],
+    "alertas": [
+      "Evite recipientes instáveis",
+      "Limpe sempre que necessário"
+    ]
+  }
+]

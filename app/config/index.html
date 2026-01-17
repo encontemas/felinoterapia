@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Felinoterapia — Configurações</title>
+    <meta name="theme-color" content="#2f2a44" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Felinoterapia" />
+    <link
+      rel="apple-touch-icon"
+      href="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=180&h=180&fm=png&q=80"
+    />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/app/app.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app__header">
+        <h1>Configurações</h1>
+        <p>Ajuste o plano do dia ao perfil do seu gato.</p>
+      </header>
+
+      <section class="section">
+        <div class="card card--photo">
+          <img
+            src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1200&q=80"
+            alt="Gato filhote em close"
+          />
+          <div class="card__body">
+            <h3>Preferências com fofura</h3>
+            <p>Ajuste o app pensando no jeitinho único do seu gato.</p>
+          </div>
+        </div>
+        <form class="card form" id="config-form">
+          <div class="field">
+            <label for="tempo-disponivel">Tempo disponível</label>
+            <select id="tempo-disponivel" name="tempo-disponivel">
+              <option value="5">5 minutos</option>
+              <option value="10">10 minutos</option>
+              <option value="15">15 minutos</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="nivel-gato">Nível de energia</label>
+            <select id="nivel-gato" name="nivel-gato">
+              <option value="calmo">Calmo</option>
+              <option value="moderado">Moderado</option>
+              <option value="ativo">Ativo</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="idade-gato">Idade</label>
+            <select id="idade-gato" name="idade-gato">
+              <option value="filhote">Filhote</option>
+              <option value="adulto">Adulto</option>
+              <option value="senior">Sênior</option>
+            </select>
+          </div>
+          <button class="button" type="submit">Salvar preferências</button>
+        </form>
+
+        <div class="card">
+          <h3>Como instalar</h3>
+          <p><strong>iPhone (Safari)</strong>: Compartilhar → Adicionar à Tela de Início.</p>
+          <p><strong>Android (Chrome)</strong>: Menu ⋮ → Instalar app.</p>
+        </div>
+
+        <div class="card">
+          <h3>Privacidade</h3>
+          <p>
+            O Felinoterapia não coleta dados pessoais, não usa cookies e não possui
+            analytics. Todas as informações ficam apenas neste dispositivo.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <nav class="nav">
+      <a href="/app/index.html">Plano</a>
+      <a href="/app/biblioteca/index.html">Biblioteca</a>
+      <a href="/app/progresso/index.html">Progresso</a>
+      <a class="active" href="/app/config/index.html">Config</a>
+    </nav>
+
+    <script src="/pwa.js"></script>
+    <script src="/app/app.js"></script>
+  </body>
+</html>
