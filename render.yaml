@@ -1,0 +1,31 @@
+services:
+  - type: static
+    name: felinoterapia
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    routes:
+      - type: redirect
+        source: /app
+        destination: /app/index.html
+      - type: redirect
+        source: /app/
+        destination: /app/index.html
+      - type: redirect
+        source: /app/biblioteca
+        destination: /app/biblioteca/index.html
+      - type: redirect
+        source: /app/biblioteca/
+        destination: /app/biblioteca/index.html
+      - type: redirect
+        source: /app/progresso
+        destination: /app/progresso/index.html
+      - type: redirect
+        source: /app/progresso/
+        destination: /app/progresso/index.html
+      - type: redirect
+        source: /app/config
+        destination: /app/config/index.html
+      - type: redirect
+        source: /app/config/
+        destination: /app/config/index.html
